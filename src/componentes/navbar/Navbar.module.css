@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.firstContainer {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #202020;
+    color: white;
+}
+
+.login {
+    display: flex;
+    gap: 0.4em;
+}
+
+.search{
+    display: flex;
+}
+
+.marvelUnlimited {
+    margin-right: 1em;
+}
+
+.secondContainer {
+    background-color: #202020;
+    border-top: 0.1px solid rgb(104, 103, 103);
+    color: white;
+}
+
+.secondContainer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1em;
+}
+
+.thirdContainer {
+    display: flex;
+    justify-content: center;
+    padding-right: 13em;
+    align-items: center;
+    background-color: yellow;
+}
+
+.thirdContainer ul {
+    display: flex;
+    list-style: none;
+}
+
+.thirdContainer ul li {
+    padding-right: 1em;
+}
